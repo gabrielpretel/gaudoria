@@ -11,7 +11,7 @@
     "rootDir": ".",
     "allowJs": true,
     "noEmit": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "isolatedModules": true,
     "resolveJsonModule": true,
     "useDefineForClassFields": true,

@@ -1,106 +1,128 @@
-# ViteSeed
+# viteseed-react
 
-Plant the seed of your project with ViteSeed, a fast and solid foundation for your development.
+Plant the seed of your project with ViteSeed, a fast and solid foundation for your development in React JS.
 
-## Description
+## Table of Contents
 
-ViteSeed is a starter template designed to help you kickstart your project with Vite and TypeScript. It comes with pre-configured settings and essential plugins to ensure a smooth development experience.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Scripts](#scripts)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [DevDependencies](#devdependencies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+**viteseed-react** is a starter template to kickstart your React project with Vite, TypeScript, and other essential tools. It provides a solid foundation to build modern web applications with ease and speed.
 
 ## Features
 
-- **Vite**: Blazing fast build tool.
-- **TypeScript**: Strongly typed JavaScript.
-- **SCSS**: CSS preprocessor for styling.
-- **Type Checking**: Ensures code quality with `vite-plugin-checker`.
+- **Vite**: Super fast build tool and dev server.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: Strongly typed programming language that builds on JavaScript.
+- **Sass**: CSS pre-processor for better styling management.
+- **Vite Plugin Checker**: For TypeScript and VLS error checking.
+- **Vitest**: For unit testing and more.
 
 ## Getting Started
 
-### Prerequisites
+To get started with **viteseed-react**, clone the repository and install the dependencies:
 
-Make sure you have Node.js and npm installed. You can download them from [nodejs.org](https://nodejs.org/).
+```bash
+git clone https://github.com/gabrielpretel/viteseed-react.git
+cd viteseed-react
+npm install
+```
 
-### Installation
+### Running the Project
 
-1. Clone the repository:
+To start the development server, run:
 
-   ```bash
-   git clone https://github.com/gabrielpretel/viteseed.git
-   ```
+```bash
+npm run start
+```
 
-2. Navigate to the project directory:
+The application will be available at `http://localhost:1080`.
 
-   ```bash
-   cd viteseed
-   ```
+### Building the Project
 
-3. Install the dependencies:
+To build the project for production, run:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm run build
+```
 
-### Scripts
+The build output will be in the `dist` directory.
 
-- **Start Development Server**:
+### Previewing the Build
 
-  ```bash
-  npm start
-  ```
+To preview the production build, run:
 
-  This will start the Vite development server on port 1080.
+```bash
+npm run preview
+```
 
-- **Build for Production**:
+The preview server will be available at `http://localhost:1081`.
 
-  ```bash
-  npm run build
-  ```
+### Type Checking
 
-  This will create an optimized build of your project in the `dist` directory.
+To perform type checking, run:
 
-- **Preview Production Build**:
+```bash
+npm run type-check
+```
 
-  ```bash
-  npm run preview
-  ```
+## Scripts
 
-  This will start a local server to preview the production build on port 1081.
-
-- **Type Check**:
-
-  ```bash
-  npm run type-check
-  ```
-
-  This will run TypeScript's type checker without emitting any files.
+- `start`: Starts the development server.
+- `build`: Builds the project for production.
+- `preview`: Previews the production build.
+- `type-check`: Checks the TypeScript types.
+- `prebuild`: Runs type-check before building.
+- `test`: Init testing from vitest.
 
 ## Project Structure
 
-- `src/`: Source code directory.
+```plaintext
+viteseed-react/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── index.tsx
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+├── tsconfig.json
+├── vite.config.ts
+```
 
-  - `index.ts`: Main entry point.
-  - `css/`: Stylesheets directory.
+## Dependencies
 
-- `public/`: Public assets directory.
+- `react`: ^18.3.1
+- `react-dom`: ^18.3.1
+- `vitest`: ^2.0.4
 
-  - `index.html`: HTML template.
+## DevDependencies
 
-- `vite.config.ts`: Vite configuration file.
-
-- `tsconfig.json`: TypeScript configuration file.
+- `@types/node`: ^22.0.0
+- `@types/react`: ^18.3.3
+- `@types/react-dom`: ^18.3.0
+- `sass`: ^1.77.8
+- `typescript`: ^5.5.4
+- `vite`: ^5.3.5
+- `vite-plugin-checker`: ^0.7.2
 
 ## Contributing
 
-Contributions are welcome! Please create an issue or submit a pull request to the repository.
+Contributions are welcome! If you find any bugs or have any suggestions, please open an issue on the [GitHub repository](https://github.com/gabrielpretel/viteseed-react/issues).
 
 ## License
 
 This project is licensed under the ISC License.
-
-## Author
-
-Gabriel Pretel
-
-## Links
-
-- [Repository](https://github.com/gabrielpretel/viteseed)
-- [Issues](https://github.com/gabrielpretel/viteseed/issues)
