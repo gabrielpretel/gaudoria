@@ -26,6 +26,7 @@ Plant the seed of your project with ViteSeed, a fast and solid foundation for yo
 - **Sass**: CSS pre-processor for better styling management.
 - **Vite Plugin Checker**: For TypeScript and VLS error checking.
 - **Vitest**: For unit testing and more.
+- **Legacy Browser Support**: Compatibility with older browsers using `@vitejs/plugin-legacy`.
 
 ## Getting Started
 
@@ -118,6 +119,10 @@ viteseed-react/
 - `typescript`: ^5.5.4
 - `vite`: ^5.3.5
 - `vite-plugin-checker`: ^0.7.2
+
+## Broswser compatibility
+
+To ensure compatibility with older browsers, ViteSeed uses the @vitejs/plugin-legacy plugin. This plugin adds support for legacy browsers by transpiling the necessary JavaScript code.
 
 ## Contributing
 
