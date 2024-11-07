@@ -27,6 +27,7 @@ Plant the seed of your project with ViteSeed, a fast and solid foundation for yo
 - **Vite Plugin Checker**: For TypeScript and VLS error checking.
 - **Vitest**: For unit testing and more.
 - **Legacy Browser Support**: Compatibility with older browsers using `@vitejs/plugin-legacy`.
+- **SVGR**: Import SVG files as React components easily using `vite-plugin-svgr`.
 
 ## Getting Started
 
@@ -119,6 +120,7 @@ viteseed-react/
 - `typescript`: ^5.5.4
 - `vite`: ^5.3.5
 - `vite-plugin-checker`: ^0.7.2
+- `vite-plugin-svgr`: ^0.7.2
 
 ## Broswser compatibility
 
