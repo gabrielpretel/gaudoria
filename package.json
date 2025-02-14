@@ -1,7 +1,7 @@
 {
-  "name": "viteseed-react",
+  "name": "gaudoria",
   "version": "1.0.0",
-  "description": "Plant the seed of your project with ViteSeed, a fast and solid foundation for your development in React JS.",
+  "description": "The IA assistent for readers",
   "main": "index.ts",
   "scripts": {
     "start": "vite -- --1080",
@@ -41,6 +41,12 @@
     "vite-plugin-svgr": "^4.3.0"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@tabler/icons-react": "^3.30.0",
+    "@tailwindcss/vite": "^4.0.6",
+    "@vitejs/plugin-react": "^4.3.4",
+    "epubjs": "^0.3.93",
+    "jszip": "^3.10.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
