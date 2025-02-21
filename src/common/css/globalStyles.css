@@ -49,8 +49,6 @@ body #root {
   -webkit-font-smoothing: antialiased;
 }
 
-@import "tailwindcss";
-
 .uploaded-row {
   margin: 10px 0;
   display: flex;

@@ -4,7 +4,6 @@ import legacy from "@vitejs/plugin-legacy";
 import { fileURLToPath } from "node:url";
 import svgr from "vite-plugin-svgr";
 import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
@@ -21,7 +20,6 @@ export default defineConfig({
         plugins: ["@emotion/babel-plugin"],
       },
     }),
-    tailwindcss(),
   ],
   css: {
     modules: {
