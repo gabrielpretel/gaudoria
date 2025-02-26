@@ -14,7 +14,7 @@ const appContent = css`
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   height: 100%;
-  width: 1280px;
+  /* width: 1280px; */
 `;
 
 export const AppLayout: React.FC<PropsWithChildren> = ({ children }) => {

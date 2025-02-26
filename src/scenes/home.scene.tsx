@@ -1,5 +1,6 @@
 import { BookContext } from "@/core/providers";
 import { BookReader, ChargeBook } from "@/pods";
+import { HeroSection } from "@/pods/hero-section/hero-section.component";
 import React, { useContext } from "react";
 
 export const HomeScene: React.FC = () => {
@@ -7,8 +8,9 @@ export const HomeScene: React.FC = () => {
 
   return (
     <>
-      <ChargeBook />
-      <BookReader />
+      <HeroSection />
+      {/* <ChargeBook />
+      <BookReader /> */}
     </>
   );
 };
