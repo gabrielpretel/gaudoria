@@ -8,7 +8,6 @@ const container = css`
   width: 100%;
   height: 57px;
   border-bottom: 1px solid #e6e8eb;
-  margin-bottom: 2rem;
 `;
 
 const header = css`
@@ -26,9 +25,13 @@ const logoContainer = css`
   gap: 8px;
 `;
 
-const logo = css`
+const logoImg = css`
   max-height: 50px;
   padding: 5px;
+`;
+
+const logoText = css`
+  font-size: 24px;
 `;
 
 const menuItems = css`
@@ -43,8 +46,8 @@ export const Header: React.FC = () => {
     <div css={container}>
       <div css={header}>
         <div css={logoContainer}>
-          <img src={Logo} css={logo} alt="Logo Gaudoria" />
-          <h2>Gaudoria</h2>
+          <img src={Logo} css={logoImg} alt="Logo Gaudoria" />
+          <h2 css={logoText}>Gaudoria</h2>
         </div>
         <div css={menuItems}>
           <span>Home</span>

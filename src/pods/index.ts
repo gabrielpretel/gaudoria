@@ -1,3 +1,3 @@
-export * from "./bookContent";
-export * from "./bookReader";
-export * from "./chargeBook/chargeBook.component";
+export * from "./book-content";
+export * from "./book-reader";
+export * from "./charge-book/chargeBook.component";

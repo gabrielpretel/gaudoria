@@ -1,7 +1,7 @@
 import { BookContext } from "@/core/providers";
 import { useContext, useRef } from "react";
 import { css } from "@emotion/react";
-import { BookMetadata } from "../bookContent/components";
+import { BookMetadata } from "../book-content/components";
 
 const chargeBookSection = css`
   display: grid;
